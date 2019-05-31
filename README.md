@@ -1,3 +1,40 @@
+# Host your angular application for FREE with firebase hosting using the firebase cli
+
+visit The [Firebase Console](https://console.firebase.google.com) login with your google account and create a new project.
+
+open you terminal and create a [new Angular project](https://cli.angular.io/)
+
+install Angular cli `npm install -g @angular/cli`
+
+create a new angular application `ng new your_project_name --routing=true --commit=true`
+
+`cd your_project_name`
+
+to test if everytihng is working `ng serve --open`
+
+Install and set up firebase hosting
+
+`npm install -g firebase-tools`
+
+`firebase login`
+
+`firebase init`
+
+Select hosting
+
+Select the project you created in the firebase console
+
+set you public folder to `dist/your_project_name`
+
+Select configure as a single page application
+
+`ng build --prod`
+
+`firebase deploy`
+
+
+
+
 # Gdgsitegh
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
