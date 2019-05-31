@@ -37,7 +37,7 @@ Select configure as a single page application
 
 # Gdgsitegh
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+This [project](https://gdgsitegh.web.app) was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
 ## Development server
 
